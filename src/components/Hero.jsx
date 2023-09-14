@@ -19,7 +19,7 @@ const Hero = () => {
     <div><span className='stroke-text'>AIKYAM : </span><span>ASSESS,</span></div>
     <div><span> HEAL, THRIVE</span></div>
     <div>
-      <span>Our website offers personalized mental health and well-being assess    . . .  . . . .....& guide you on your journey to emotional balance and resilience
+      <span>Our website offers personalized mental health and well-being assess & guide you on your journey to emotional balance and resilience
       </span>
       </div>
     </div>

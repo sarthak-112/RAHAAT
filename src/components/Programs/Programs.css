@@ -57,4 +57,5 @@
 }
 .category:hover{
     background-color: var(--blue);
+    cursor: pointer;
 }
