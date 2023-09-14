@@ -85,7 +85,7 @@
 }
 
 .hero-buttons>:nth-child(1){
-    color: white;
+    color: black;
     background-color: var(--blue);
     width: 8rem;
 }
