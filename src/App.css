@@ -2,10 +2,10 @@
 :root {
   --lightgray: #D9D9D9;
   --darkBlue: #0A1539;
-  --blue: #beefff;
+  --blue: #71cbe9;
   --darkGrey: #464D53;
   --caloryCard: #656565;
-  --planCard: linear-gradient(210.41deg, #fa5042 1.14%, #ffa739 100.75%);
+  --planCard: linear-gradient(210.41deg, #42a4fa 1.14%, #39b6ff 100.75%);
   --appColor:  #3c3f45;
 }
 

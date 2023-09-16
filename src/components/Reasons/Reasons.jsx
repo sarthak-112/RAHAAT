@@ -21,7 +21,24 @@ const Reasons = () => {
             <span> choose us</span>
           </div>
           
-          <div></div>
+          <div className='details-r'>
+            <div>
+              <img src={tick} alt=''/>
+                <span>highest quality assessments and guidance</span>
+            </div>
+            <div>
+              <img src={tick} alt=''/>
+                <span>user-friendly interface and engaging content</span>
+            </div>
+            <div>
+              <img src={tick} alt=''/>
+                <span>wide range of assessments, tailored to different age groups and needs</span>
+            </div>
+            <div>
+              <img src={tick} alt=''/>
+                <span>We take data security and privacy seriously</span>
+            </div>
+          </div>
         </div>
     </div>
   )

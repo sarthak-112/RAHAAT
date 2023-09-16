@@ -2,16 +2,21 @@ import React from 'react'
 import './Hero.css'
 import Header from '../components/Header/Header'
 import Hero_image from "../assets/hero_image.png";
-import Hero_image_back from "../assets/hero_image_back.png";
-import Heart from "../assets/heart.png";
+import {motion} from 'framer-motion'
+
 import Calories from "../assets/calories.png";
 const Hero = () => {
+  const transition = {type: 'spring', duration:3}
   return (
-    <div className='hero'>
+    <div className='hero' id='Home'>
     <div className='left-h'>
     <Header/>
     <div className='the-best-ad'>
-    <div></div>
+    <motion.div
+      initial={{left:'238px'}}
+      whileInView={{left:'8px'}}
+      transition={{...transition,type:'tween'}}>
+    </motion.div>
     <span>Nurturing Minds, Building Resilience</span>
     </div>
 
@@ -48,13 +53,7 @@ const Hero = () => {
     <div className='right-h'>
       <button className='btn'>Join Now</button>
 
-      <div className='heart-rate'>
-        <img src={Heart} alt=''/>
-        <span>Heart Rate</span>
-        <span>116 bpm</span>
-      </div>
       <img src={Hero_image} alt='' className='hero-image'/>
-      <img src={Hero_image_back} alt='' className='hero-image-back'/>
 
       <div className='calories'>
         <img src={Calories} alt=''/>
